@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>randomNumber</title>
+    <link rel="stylesheet" href="randomNumber.css">
+</head>
+
+<body>
+    <main>
+        <section id="sct-practica" class="sct-practica">
+            <div>
+                <h1>Calculo numero Aleatorio</h1>
+                <div>
+                    <label for="txtCantidad">Ingrese la cantidad de intentos:</label>
+                </div>
+                <div class="cantidadIntentos">
+                    <input type="number" id="cantidadIntentos">
+                </div>
+                <div class="numeroAleatorio">
+                    <input type="input" id="numeroAleatorio">
+                    <input type="button" id="numeroAleatorio" value="GenerarAleatorio" onclick="asignarRandom();">
+                </div>
+                <div>
+                    <label for="txtCantidad">Ingrese el numero:</label>
+                </div>
+                <div class="valores-ingreso">
+                    <input type="input" id="numero">
+                    <input type="button" id="intento" value="Validar" onclick="numeroRandom1();">
+                </div>
+                <label for="txtCantidad">Contador de intentos restantes</label>
+                <div class="valores-Resultado">
+                    <input type="input" id="cantIntentos" value="0">
+                </div>
+                <div class="valores-resultado">
+                    <label for="txtResultado">Resultado:</label>
+                    <textarea name="txtResultado" id="txtResultado" disabled></textarea>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="randomNumber.js"></script>
+
+</body>
+
+</html>
